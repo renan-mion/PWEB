@@ -1,11 +1,11 @@
+function Mostrar(obj) {
+    return `Matrícula: ${obj.matricula}\nNome: ${obj.nome}\nFunção: ${obj.funcao}`;
+}
+
 var Funcionario1 = new Object();
 Funcionario1.matricula = 111111;
 Funcionario1.nome = "Paulo";
 Funcionario1.funcao = "Analista de testes";
-
-function Mostrar(obj) {
-    return `Matrícula: ${obj.matricula}\nNome: ${obj.nome}\nFunção: ${obj.funcao}`;
-}
 
 alert(Mostrar(Funcionario1));
 
